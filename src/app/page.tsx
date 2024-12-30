@@ -3,9 +3,8 @@ import Header from './Components/Header'
 import Banner from './Components/Banner'
 import Arrival from './Components/Arrival'
 import Sell from './Components/Sell'
+import Image from './Components/styleimg'
 import Review from './Components/Review'
-import Product from './Components/products'
-import Detail from './Components/Productdetail'
 
 const page = () => {
   return (
@@ -14,9 +13,8 @@ const page = () => {
       <Banner/>
       <Arrival/>
       <Sell/>
+      <Image/>
       <Review/>
-      <Product/>
-      <Detail/>
     </div>
   )
 }

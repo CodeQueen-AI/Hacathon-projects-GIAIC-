@@ -48,15 +48,14 @@ const TopSeller = () => {
   ];
 
   return (
-    <div>
-      {/* NEW ARRIVALS Heading */}
-      <div className="text-center mt-12 mb-6">
-        <h1
-          className="font-IntegralCF text-4xl font-extrabold leading-[57.6px] text-center"
-          style={{ textUnderlinePosition: "from-font" }}
-        >
+    <div className='mb-[100px] mt-[100px]'>
+      <div className="text-center mb-10">
+        <h1 className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-3xl text-[#074799]">
           TOP SELLING
         </h1>
+        <div className="flex mt-2 justify-center">
+          <div className="w-16 h-1 rounded-full bg-[#074799] inline-flex" />
+        </div>
       </div>
 
       {/* Card Section */}
@@ -102,11 +101,10 @@ const TopSeller = () => {
           </div>
         ))}
 
-        {/* Centered View All Button Inside Card Section */}
         <div className="col-span-full flex justify-center mt-8 mb-12">
-          <button className="text-lg font-Satoshi font-medium text-black px-16 py-2 border-2 border-gray-200 rounded-full">
-            View All
-          </button>
+        <button className="text-lg font-medium text-black px-16 py-2 border-2 border-gray-200 rounded-full transition-all duration-300 ease-in-out hover:bg-black hover:text-white hover:border-black transform hover:scale-105">
+           View All
+        </button>
         </div>
       </div>
     </div>

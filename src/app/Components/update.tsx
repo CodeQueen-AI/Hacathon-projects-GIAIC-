@@ -10,14 +10,14 @@ export default function SubscribeSection() {
         </h1>
 
         {/* Search Bars */}
-        <div className="flex flex-col w-full md:w-auto gap-4 md:ml-10">
+        <div className="flex flex-col w-full md:w-auto gap-6 md:ml-10">
           {/* First Search Bar with Icon on the Left */}
           <div className="relative flex items-center">
-            <TfiEmail className="absolute left-20 text-gray-700" />
+            <TfiEmail className="absolute left-4 text-gray-700" />
             <input
               type="email"
               placeholder="Enter your Gmail address"
-              className="pl-12 py-3 text-black rounded-full outline-none w-full md:w-80 lg:w-96 text-center placeholder:text-gray-500"
+              className="pl-12 py-3 text-black rounded-full outline-none w-full md:w-80 lg:w-96 placeholder:text-gray-500"
             />
           </div>
 
@@ -26,7 +26,7 @@ export default function SubscribeSection() {
             <input
               type="text"
               placeholder="Subscribe to our letter"
-              className="pl-12 py-3 text-black rounded-full outline-none w-full md:w-80 lg:w-96 text-center placeholder:text-black"
+              className="pl-12 py-3 text-black rounded-full outline-none w-full md:w-80 lg:w-96 placeholder:text-black"
             />
           </div>
         </div>

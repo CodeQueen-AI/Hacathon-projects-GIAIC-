@@ -50,17 +50,10 @@ const NewArrival = () => {
 
   return (
     <div className='mb-[100px] mt-[100px]'>
-      <div className="text-center mb-10">
-        <h1 className="scroll-m-20 text-5xl font-extrabold tracking-tight lg:text-3xl text-[#074799]">
-          NEW ARRIVAL
-        </h1>
-        <div className="flex mt-2 justify-center">
-          <div className="w-16 h-1 rounded-full bg-[#074799] inline-flex" />
-        </div>
-      </div>
+      <div className="font-extrabold text-3xl text-center mb-6">YOU MIGHT LIKE</div>
 
       {/* Card Section */}
-      <div className="w-[90%] border-b-2 border-gray-200 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-auto">
+      <div className="w-[90%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-auto">
         {card.map((item) => (
           <div
             key={item.id}
@@ -112,15 +105,6 @@ const NewArrival = () => {
             </div>
           </div>
         ))}
-      </div>
-      <div className="col-span-full flex justify-center mt-8 mb-12">
-   
-        <Link href="./products">
-        <button className="text-lg font-medium text-black px-16 py-2 border-2 border-gray-200 rounded-full transition-all duration-300 ease-in-out hover:bg-black hover:text-white hover:border-black transform hover:scale-105">
-           View All
-        </button>
-
-        </Link>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const TopHeader = () => {
       <div className="w-full h-[48px] flex justify-center items-center px-4 sm:px-8">
         <p className="text-gray-300 text-sm font-normal text-center sm:text-left">
           Sign up and get <span className="font-semibold">20% off</span> your first order. 
-          <span className="underline font-medium hover:font-semibold ml-2 text-white cursor-pointer">
+          <span className="underline font-semibold ml-2 text-white cursor-pointer">
             Sign Up Now
           </span>
         </p>
