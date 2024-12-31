@@ -2,6 +2,13 @@
 'use client'
 import React, { useState } from 'react';
 
+type ReviewProps = {
+  name: string;
+  date: string;
+  content: string;
+  rating: number;
+};
+
 const reviews = [
   {
     name: 'Samantha D.',
@@ -70,7 +77,7 @@ const productDetails = `
   </ul>
 `;
 
-const Review = ({ name, date, content, rating }) => {
+const Review = ({ name, date, content, rating }: ReviewProps) => {
   return (
     <div className="border p-4 rounded-lg shadow-sm">
       <div className="flex items-center mb-2">
