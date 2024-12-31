@@ -101,7 +101,12 @@ const Review = ({ name, date, content, rating }: ReviewProps) => {
   );
 };
 
-const FAQ = ({ question, answer }) => (
+type FAQProps = {
+  question: string;
+  answer: string;
+};
+
+const FAQ = ({ question, answer }: FAQProps) => (
   <div className="border p-4 rounded-lg shadow-sm mb-4">
     <div className="font-semibold mb-2">{question}</div>
     <div className="text-gray-700">{answer}</div>
