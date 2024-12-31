@@ -97,7 +97,7 @@ const Header = () => {
             className="absolute right-7 xl:right-0 top-12 max-w-[76px] max-h-[76px] lg:max-w-24 lg:max-h-max-w-24 xl:max-w-[104px] xl:max-h-[104px] animate-[spin_4s_infinite]"
           />
           <Image
-            src="/Small Vector.png"
+            src="/small vector.png"
             height={56}
             width={56}
             alt="small star"
