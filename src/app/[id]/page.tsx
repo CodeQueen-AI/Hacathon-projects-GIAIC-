@@ -1,6 +1,7 @@
 "use client";
 import { useParams } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
@@ -145,9 +146,11 @@ const ProductDetails = () => {
                 </div>
 
                 {/* Add to Cart Btn */}
+                  <Link href='/cart'>
                 <button className="w-60 text-black border border-black bg-white py-3 rounded-full shadow-md hover:text-white hover:bg-black transition-all duration-300 ease-in-out transform hover:scale-105">
                   Add to Cart
                 </button>
+                </Link>
               </div>
             </div>
           </div>
